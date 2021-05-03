@@ -1,0 +1,181 @@
+body{
+	background-color: rgb(40,25,18);
+	background-repeat: no-repeat;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.bg{
+	z-index:0;
+	position: relative;
+}
+.content-bg{
+	z-index:0;
+	position: absolute;
+	left:537px; 
+	top:186px; 
+	
+}
+p{
+	color: rgb(77,75,74);
+}
+
+
+.td-p{
+	color: rgb(207,121,66);
+}
+.feature-bg{
+	z-index:0;
+	position: absolute;
+	left:45px; 
+	top:50px;
+}
+.author-photo{
+	z-index:0;
+	position: absolute;
+	left:50px; 
+	top:60px;
+}
+.author-photo-work{
+	z-index:0;
+	position: absolute;
+	left:51px; 
+	top:55px;
+}
+.author-feature{
+	z-index:0;
+	position: absolute;
+	left: 51px; 
+	top: 275px;
+}
+.text-about-welcome{
+	z-index:0;
+	position: absolute;
+	left:305px; 
+	top:32px;
+	color: rgb(207,121,66);
+}
+.text-about-descr{
+	z-index:0;
+	position: absolute;
+	left:305px; 
+	top:94px;
+	right: 20px;
+}
+.text-work-descr{
+	z-index:0;
+	position: absolute;
+	left:305px; 
+	top:35px;
+	right: 20px;
+}
+.text-about-service{
+	z-index:0;
+	position: absolute;
+	left:305px; 
+	top:175px;
+	color: rgb(207,121,66);
+}
+h1{
+	font-family: "Bradley Hand", cursive;
+}
+table{
+	z-index:0;
+	position: absolute;
+	left:305px; 
+	top:85px;
+}
+td{
+	padding:  0px 5px 0px 5px; 
+}
+.thumb-bg{
+	z-index:0;
+	position:relative;
+}
+.image-web{
+	z-index:1;
+	position: absolute;
+	left:7px;
+	top:7px;
+}
+
+.icon-about1{
+	z-index:1;
+	position: absolute;
+	left: 980px; 
+	top:100px;
+}
+.icon-work2{
+	z-index:1;
+	position: absolute;
+	left:1080px; 
+	top:100px;
+}
+.icon-social4{
+	z-index:1;
+	position: absolute;
+	left:1180px; 
+	top:100px;
+}
+.icon-contact3{
+	z-index:1;
+	position: absolute;
+	left:1280px; 
+	top:100px;
+}
+.icon-print{
+	z-index:1;
+	position: absolute;
+	left: 335px; 
+	top:245px;
+}
+.icon-webdesign{
+	z-index:1;
+	position: absolute;
+	left: 485px; 
+	top:245px;
+}
+.icon-development{
+	z-index:1;
+	position: absolute;
+	left: 640px; 
+	top:245px;
+}
+
+.nav-underline-about{
+	z-index:1;
+	position: absolute;
+	left:980px; 
+	top:102px;
+}
+.nav-underline-work{
+	z-index:1;
+	position: absolute;
+	left:1080px; 
+	top:102px;
+}
+.nav-underline-social{
+	z-index:1;
+	position: absolute;
+	left:1180px; 
+	top:102px;
+}
+.nav-underline-contact{
+	z-index:1;
+	position: absolute;
+	left:1280px; 
+	top:102px;
+}
+
+
+.copyright-notice{
+	z-index: 1;
+	position: absolute;
+	left:880px; 
+	top:580px;
+	color: white;
+	font-style: Verdana;
+	font-size: 13px;
+	opacity: 0.5;
+}

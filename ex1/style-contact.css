@@ -1,0 +1,123 @@
+body{
+	background-color: rgb(40,25,18);
+	background-repeat: no-repeat;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.bg{
+	z-index:0;
+	position: relative;
+}
+.content-bg{
+	z-index:0;
+	position: absolute;
+	left:537px; 
+	top:186px; 
+	
+}
+.text-work-descr{
+	z-index:0;
+	position: absolute;
+	left:305px; 
+	top:35px;
+	right: 20px;
+}
+.text-contact{
+	z-index:0;
+	position: absolute;
+	left:10px; 
+	top:25px;
+	right: 20px;
+	color: rgb(207,121,66);
+}
+.email-form{
+	z-index:0;
+	position: absolute;
+	left:10px; 
+	top:60px;
+}
+.feature-bg{
+	z-index:0;
+	position: absolute;
+	left:45px; 
+	top:50px;
+}
+.icon-home{
+	z-index:1;
+	position: absolute;
+	left: 335px; 
+	top:245px;
+}
+.text-home{
+	z-index:1;
+	position: absolute;
+	left: 450px; 
+	top:245px;
+}
+p{
+	color: rgb(77,75,74);
+}
+.icon-about1{
+	z-index:1;
+	position: absolute;
+	left: 980px; 
+	top:100px;
+}
+.icon-work2{
+	z-index:1;
+	position: absolute;
+	left:1080px; 
+	top:100px;
+}
+.icon-social4{
+	z-index:1;
+	position: absolute;
+	left:1180px; 
+	top:100px;
+}
+.icon-contact3{
+	z-index:1;
+	position: absolute;
+	left:1280px; 
+	top:100px;
+}
+
+
+.nav-underline-about{
+	z-index:1;
+	position: absolute;
+	left:980px; 
+	top:102px;
+}
+.nav-underline-work{
+	z-index:1;
+	position: absolute;
+	left:1080px; 
+	top:102px;
+}
+.nav-underline-social{
+	z-index:1;
+	position: absolute;
+	left:1180px; 
+	top:102px;
+}
+.nav-underline-contact{
+	z-index:1;
+	position: absolute;
+	left:1280px; 
+	top:102px;
+}
+
+
+.copyright-notice{
+	z-index: 1;
+	position: absolute;
+	left:880px; 
+	top:580px;
+	color: white;
+	font-style: Verdana;
+	font-size: 13px;
+	opacity: 0.5;
+}
