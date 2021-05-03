@@ -1,0 +1,375 @@
+body{
+	background-image: url(images/body_top.png), url(images/body.png);
+	background-repeat: repeat-x, repeat;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: 1250px;
+	width: 1050px;
+}
+
+.div-main{
+	position: relative;
+	z-index:0;
+}
+.header{
+	position: absolute;
+	z-index:1;
+}
+.copyright{
+	position: absolute;
+	z-index: 2;
+	left: 295px;
+	top: 1185px;
+	width: 400px;
+	height: 60px;
+	color: grey;
+}
+.image1{
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 200px;
+}
+.image2{
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 200px;
+	left: 330px;
+}
+.vivamus{
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 200px;
+	left: 0px;
+	top: 170px;
+}
+.aliquam{
+	position: absolute;
+	z-index: 1;
+	width: 300px;
+	height: 200px;
+	left: 325px;
+	top: 170px;
+}
+
+#h5-bg{
+	position: absolute;
+	z-index:0;
+	top: 15px;
+	left: 0px;
+}
+#h5-text{
+	position: absolute;
+	z-index: 2;
+}
+a{
+	text-decoration: underline;
+	font-weight: 700;
+}
+ul{
+	list-style-image: url(images/list_01.png);
+	margin-top: 40px;
+	width: 265px;
+}
+li{
+	padding-left: 15px;
+}
+#h3-V{
+	border-bottom-style: dashed;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	margin-right: 30px;
+}
+#h3-O{
+	border-bottom-style: dashed;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+}
+#p-left{
+	margin-right:30px;
+
+}
+#p-left-1{
+	margin-right:30px;
+	border-bottom-style: dashed;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	padding-bottom: 10px;
+}
+#p-left-2{
+	margin-right:30px;
+	border-bottom-style: dashed;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	padding-bottom: 10p	x;
+}
+#image_frame_01{
+	position: absolute;
+	z-index:1;
+}
+#image_frame_02{
+	position: absolute;
+	z-index:1;
+}
+#image_01{
+	position: absolute;
+	z-index:1;
+	top: 9px;
+	left: 8px;
+}
+#image_02{
+	position: absolute;
+	z-index:1;
+	top: 9px;
+	left: 9px;
+}
+.logo{
+	position: absolute;
+	z-index:1;
+	left: 100px;
+	top: 100px;
+	
+}
+.welcome-title{
+	position: absolute;
+	z-index: 2;
+	left: 30px;
+	top: 20px;
+	width: 200px;
+	height: 320px;
+}
+.free-template{
+	position: absolute;
+	z-index: 2;
+	left: 290px;
+	top: 0px;
+	width: 650px;
+	height: 320px;
+}
+.vestebulum{
+	position: absolute;
+	z-index: 2;
+	left: 75px;
+	top: 500px;
+	width: 265px;
+	height: 320px;
+}
+.project{
+	position: absolute;
+	z-index: 2;
+	left: 336px;
+	top: 500px;
+	width: 658px;
+	height: 320px;
+}
+.sign-up{
+	position: absolute;
+	z-index: 2;
+	left: 75px;
+	top: 830px;
+	width: 920px;
+	height: 320px;
+}
+.footer{
+	position: absolute;
+	z-index: 2;
+	left: 75px;
+	top: 945px;
+	width: 920px;
+	height: 320px;
+}
+.contact{
+	position: absolute;
+	z-index: 2;
+	left: 590px;
+	top: 0px;
+	width: 325px;
+	height: 200px;
+}
+#footer-text{
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 40px;
+	width: 550px;
+	height: 320px;
+	color: grey;
+}
+.table{
+	position: absolute;
+	z-index: 2;
+	color: black;
+
+}
+#h4{
+	position: absolute;
+	z-index: 2;
+	left: 30px;
+	top: 40px;
+}
+#p-sodal{
+	position: absolute;
+	z-index: 2;
+	left: 250px;
+	top: 35px;
+	width: 210px;
+	height: 50px;
+}
+#sign-up{
+	position: absolute;
+	z-index: 2;
+	left: 20px;
+	top: 10px;
+}
+#subscribe-box{
+	position: absolute;
+	z-index: 2;
+	left: 525px;
+	top: 5px;
+}
+#button{
+	position: absolute;
+	z-index: 1;
+	left: 195px;
+	top: 0px;
+}
+#newsletter-email{
+	position: absolute;
+	z-index: 3;
+	left: 551px;
+	top: 25px;
+}
+#read-our{
+	position: absolute;
+	z-index: 2;
+	left: 250px;
+	top: 15px;
+}
+#form-radio{
+	position: absolute;
+	z-index: 2;
+	left: 545px;
+	top: 65px;
+	font-size: 12px;
+	color: grey;
+}
+#go{
+	position: absolute;
+	z-index: 1;
+	left: 200px;
+	top: 5px;
+	font-size: 12px;
+	padding:0;
+	border:0;
+	font-weight: 700;
+}
+#wave1{
+	position: absolute;
+	z-index: 2;
+	left: 55px;
+	top: 1170px;
+}
+#wave2{
+	position: absolute;
+	z-index: 1;
+	left: 55px;
+	top: 185px;
+}
+#logo{
+	color: white;
+	margin-left: 50px;
+	margin-top: 9px;
+	font-size: 8pt;
+}
+#menu-hover{
+	position: absolute;
+	left: 405px;
+	top: 135px;
+}
+.menu{
+	position: relative;
+	z-index: 1;
+	color: white;
+	left: 400px;
+	top: 125px;
+}
+#td1{
+	font-size: 14pt;
+	color: white;
+	margin-left: 10px;
+	padding: 0px 40px 0px 10px;
+}
+#t1{
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+	background-color: grey;
+	height: 25px;
+	width: 160px;
+	border: 0px;
+	padding: 0px 0px 0px 5px;
+}
+#t2{
+	position: absolute;
+	z-index: 2;
+	left: 173px;
+	top: 0px;
+	background-color: grey;
+	height: 86px;
+	width: 174px;
+	border: 0px;
+	padding: 0px 0px 60px 5px;
+	
+}
+#t3{
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 30px;
+	background-color: grey;
+	height: 25px;
+	width: 160px;
+	border: 0px;
+	padding: 0px 0px 0px 5px;
+}
+#t4{
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 60px;
+	background-color: grey;
+	height: 25px;
+	width: 160px;
+	border: 0px;
+	padding: 0px 0px 0px 5px;
+}
+#t5{
+	position: absolute;
+	z-index: 2;
+	left: 290px;
+	top: 90px;
+	background-color: grey;
+	height: 25px;
+	width: 57px;
+	border: 0px;
+	padding: 0px 0px 0px 5px;
+}
+.search{
+	z-index:2;
+	position: absolute;
+	left: 740px;
+	top: 25px;
+}
+.white-list{
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+	margin-left: 55px;
+	margin-top: 146px;
+	width: 966px;
+	height: 990px;
+}
